@@ -1,0 +1,7 @@
+{
+  "name": "jemina-capital",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

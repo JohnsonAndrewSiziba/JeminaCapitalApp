@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "jemina-capital",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
