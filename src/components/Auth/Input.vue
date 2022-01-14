@@ -1,12 +1,16 @@
 <template>
   <ion-item class="ion-margin-bottom">
-    <ion-input type="text" placeholder="Awesome Input"></ion-input>
+    <ion-input :type="type" :placeholder="placeholder"></ion-input>
   </ion-item>
 </template>
 
 <script>
 export default {
-  name: "Input"
+  name: "Input",
+  props: [
+      'type',
+      'placeholder'
+  ]
 }
 </script>
 
