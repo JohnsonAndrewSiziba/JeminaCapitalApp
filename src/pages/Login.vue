@@ -18,11 +18,11 @@
 
     <ion-content>
       <div id="header">
-        <h1>Login</h1>
         <img src="../assets/logo.jpeg" alt="">
       </div>
 
       <form action="" id="form">
+        <h1 class="text-center">Login</h1>
         <Input placeholder="Email"></Input>
         <Input placeholder="password" type="password"></Input>
         <ion-button expand="block" shape="round">Login</ion-button>
